@@ -1,0 +1,253 @@
+body{
+ font-family:sans-serif;
+
+ background-color:#fdfdfd;
+}
+
+.profile{
+ background-color:#fdfdfd;
+ box-shadow:0px 0px 7px rgba(0, 0, 0, 0.1);
+
+ display:grid;
+ grid-template-columns:190px 1fr;
+
+ position:fixed;
+ top:40px;
+ left:70px;
+ height:784px;
+ width:600px;
+}
+
+
+.leftSection{
+ background-color:#282828;
+
+ width:190px;
+ height:784px;
+}
+.pfp{
+ object-fit:cover;
+ object-position:center;
+
+ width:190px;
+ height:230px;
+}
+.name{
+ font-weight:bold;
+ font-size:22px;
+ text-align:center;
+
+ color:#fdfdfd;
+
+ margin:15px 10px 0px 10px;
+}
+
+.role{
+ font-size:12px;
+ text-align:center;
+
+ color:#bbbbbb;
+
+ margin:0px 10px 20px 10px;
+}
+
+.skillC{
+ font-weight:bold;
+ font-size:12px;
+
+ color:#ffffff;
+
+ margin:280px 0 5px 20px;
+}
+.txt{
+ text-decoration:none;
+ font-size:11px;
+
+ color:#bbbbbb;
+}
+.txt0box{
+ margin:4px 0 4px 20px;
+}
+
+
+.rightSection{
+  padding:28px 30px;
+}
+
+.quote{
+ font-family:"Georgia";
+ font-size:1.1rem;
+ font-style:italic;
+ line-height:1.5;
+
+ color:#282828;
+
+ margin:60px 0px 25px 15px;
+}
+.titleBio{
+ font-weight:bold; 
+ font-size:15px;
+
+ color:#282828;
+
+ border-left:4px solid #282828;
+ padding-left:8px;
+ margin:110px 0 8px 0;
+}
+.titleExp{
+ font-weight:bold;
+ font-size:15px;
+
+ color:#282828;
+
+ border-left:4px solid #282828;
+ padding-left:8px; 
+ margin:205px 0 8px 0;
+}
+.bio{
+ font-size:13px;
+ line-height:1.5;
+
+ margin:0px 0 15px 0;
+
+}
+.exp{
+ font-size:13px;
+ line-height:1.5;
+
+ color:#444444;
+
+ margin:0 0 0 0;
+
+}
+.skillsHeader{
+ font-size:12px;
+
+ color:#bbbbbb;
+
+ margin:235px 0 4px 20px;
+}
+.skillsList{
+  list-style-type:none;
+  
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+
+  padding:0px 0px 0px 0px;
+  margin:0 0 0 0;
+}
+
+
+.contactHeader{
+ font-size:12px;
+
+ color:#bbbbbb;
+
+ margin:15px 0 4px 20px;
+}
+.contactsList{
+  list-style-type:none;
+  
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+
+  padding:0px 0px 0px 0px;
+  margin:0 0 0 0;
+}
+
+.img1C{
+  position:absolute;
+  top:45px;
+  right:0px;
+  z-index:-1;
+}
+.img1{
+  box-shadow:0px 1px 7px rgba(0, 0, 0, 0.4);
+
+  height:260px;
+}
+.img1Lbl{
+  font-size:10px;
+
+  color:#8d8d8d;
+}
+
+.img2C{
+  position:absolute;
+  top:100px;
+  right:400px;
+  z-index:-1;
+}
+.img2{
+  box-shadow:0px 1px 7px rgba(0, 0, 0, 0.4);
+
+  height:180px;
+}
+.img2Lbl{
+  font-size:10px;
+
+  color:#8d8d8d;
+
+  width:145px
+}
+
+.img3C{
+  position:absolute;
+  top:350px;
+  right:10px;
+  z-index:-1;
+}
+.img3{
+  box-shadow:0px 1px 7px rgba(0, 0, 0, 0.4);
+
+  height:400px;
+}
+.img3Lbl{
+ font-size:10px;
+
+ color:#8d8d8d;
+}
+
+.img4C{
+ position:absolute;
+ top:335px;
+ right:370px;
+ z-index:-1;
+}
+.img4{
+ box-shadow:0px 1px 7px rgba(0, 0, 0, 0.4);
+
+ height:265px;
+}
+.img4Lbl{
+ font-size:10px;
+
+ color:#8d8d8d;
+
+ width:265px;
+}
+
+.img5C{
+ position:absolute;
+ top:640px;
+ right:290px;
+ z-index:-1;
+}
+.img5{
+ box-shadow:0px 1px 7px rgba(0, 0, 0, 0.4);
+
+ object-fit:cover;
+ object-fit:center;
+
+ height:145px;
+ width:200px;
+}
+.img5Lbl{
+ font-size:10px;
+
+ color:#8d8d8d;
+
+ width:265px;
+}
