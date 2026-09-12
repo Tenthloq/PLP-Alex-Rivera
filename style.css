@@ -2,11 +2,9 @@ body{
  font-family:system-ui;
  background-color:#fdfdfd;
  margin:3px;
- height:1350px;
 }
 @media(min-width:1350px){
   body{
-   padding-top:35px;
    height:auto;
    overflow:hidden;
   }
@@ -294,6 +292,7 @@ body{
   }
   .img1{
    height:180px;
+   width:135.07px;
    box-shadow:0px 1px 7px rgba(0, 0, 0, 0.4);
   }
   .img1-lbl{
@@ -322,6 +321,7 @@ body{
   }
   .img2{
    height:260px;
+   width:389.7px;
    box-shadow:0px 1px 7px rgba(0, 0, 0, 0.4);
   }
   .img2-lbl{
@@ -347,10 +347,11 @@ body{
 @media(min-width:1350px){
   .img3-c{
    margin:9px 180px 0 -30px;
-   width:px;
+   width:265px;
   }
   .img3{
    height:265px;
+   width:265px;
    box-shadow:0px 1px 7px rgba(0, 0, 0, 0.4);
   }
   .img3-lbl{
@@ -380,6 +381,7 @@ body{
   .img4-c{
    margin:0px 0px 0 39px;
    width:200px;
+   height:145px;
   }
   .img4{
    object-fit:cover;
@@ -411,10 +413,11 @@ body{
 @media(min-width:1350px){
   .img5-c{
    margin:18px 0px 0 50px;
-   width:389.7px;
+   width:380px;
   }
   .img5{
    height:400px;
+   width:320px;
    box-shadow:0px 1px 7px rgba(0, 0, 0, 0.4);
   }
   .img5-lbl{
